@@ -58,6 +58,7 @@ aceite, decisões de stack, plano de verificação e dúvidas bloqueantes. Use o
 | Interpretar evidência | [Verificação](guides/verification.md) |
 | Manter fontes atuais | [Manutenção](guides/maintenance.md) |
 | Aplicar procedimentos reutilizáveis | [Playbooks](playbooks/README.md) e [skills](skills/README.md) |
+| Orquestrar Codex em iterações Ralph | [Codex + Ralph Loop](playbooks/codex-ralph.md) |
 
 ## Status e evidência
 
