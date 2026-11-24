@@ -12,6 +12,11 @@
 Automação detecta sinais; não promove ferramenta. Estrelas e frequência de commits
 não são critério suficiente de qualidade ou segurança.
 
+O relatório de atualidade consulta fontes GitHub dos Markdown no nível superior
+de `catalog/`. Ao retirar uma fonte arquivada, registre sua URL histórica e a
+justificativa em `catalog/evidence/` e referencie a evidência em
+`catalog/retired.md`; mantenha as alternativas ativas sob a verificação periódica.
+
 ## Revalidar uma ferramenta
 
 1. Confirme a fonte oficial e se o projeto mudou de organização.
