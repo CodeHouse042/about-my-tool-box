@@ -2,6 +2,13 @@
 
 ## Não lançado
 
+- Documenta autoria Git pública, verificação de autor e committer e recuperação
+  de contribuições em branch isolada sem reescrever o histórico compartilhado.
+- Adiciona playbook Codex + Ralph com limites de execução, critérios de parada e
+  evidência E2, sem presumir um runner instalado ou validado.
+- Retira AutoGen das candidatas ativas após confirmação de arquivamento;
+  preserva evidência, distingue as licenças de código e documentação e mantém
+  alternativas E1 já catalogadas.
 - Reposiciona a base como sistema público de desenvolvimento guiado por IA.
 - Adiciona entrevista, spec, matriz de decisão e ciclo
   `SPEC → RECON → RED → BUILD → TEST → REVIEW → CORRECT → VERIFY → CI → LEARN`.

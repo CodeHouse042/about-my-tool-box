@@ -4,6 +4,7 @@ Procedimentos reutilizáveis derivados de padrões de projetos reais, mas escrit
 forma anônima e aplicável a qualquer equipe.
 
 - [Entrega granular](delivery-granular.md)
+- [Codex + Ralph Loop](codex-ralph.md) — automação granular com limites, checks e gates humanos
 - [Ambiente Windows/WSL2](wsl2.md)
 - [Verificação honesta](honest-verification.md)
 - [Segurança de sites e lojas](site-trust.md)

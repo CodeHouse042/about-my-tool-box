@@ -62,7 +62,6 @@ quando a spec provar essa necessidade.
 | Ruflo | Orquestração de agentes e memória | Em avaliação | E1 | MIT | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) |
 | CrewAI | Orquestração por agentes e tarefas | Em avaliação | E1 | MIT | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) |
 | LangGraph | Workflows de agentes como grafos | Em avaliação | E1 | MIT | [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) |
-| AutoGen | Framework de agentes colaborativos | Em avaliação | E1 | MIT | [microsoft/autogen](https://github.com/microsoft/autogen) |
 | Aider | Pair programming por IA no terminal | Em avaliação | E1 | Apache-2.0 | [Aider-AI/aider](https://github.com/Aider-AI/aider) |
 | Cline | Agente de código em IDE, CLI e SDK | Em avaliação | E1 | Apache-2.0 | [cline/cline](https://github.com/cline/cline) |
 | FastMCP | Criar servidores MCP em Python | Em avaliação | E1 | Apache-2.0 | [PrefectHQ/fastmcp](https://github.com/PrefectHQ/fastmcp) |
