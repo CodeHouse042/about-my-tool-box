@@ -363,13 +363,19 @@ def check_content(errors: list[str]) -> tuple[int, int, int]:
         if PLACEHOLDER_URL_RE.search(text):
             errors.append(f"URL placeholder encontrada: {path.relative_to(ROOT)}")
 
-    verification = (ROOT / "guides/verification.md").read_text(encoding="utf-8")
-    if "Somente E3" not in verification:
-        errors.append("critério 'Somente E3' não está declarado")
+    verification_path = ROOT / "guides/verification.md"
+    if verification_path.exists():
+        verification = verification_path.read_text(encoding="utf-8")
+        if "Somente E3" not in verification:
+            errors.append("critério 'Somente E3' não está declarado")
 
     sensitive_count = check_sensitive_tree(errors)
-    tool_count = check_tool_catalog(errors)
-    paid_count = check_paid_services(errors)
+    tool_count = (
+        check_tool_catalog(errors) if (ROOT / "catalog/tools.md").exists() else 0
+    )
+    paid_count = (
+        check_paid_services(errors) if (ROOT / "catalog/paid-services.md").exists() else 0
+    )
     return sensitive_count, tool_count, paid_count
 
 

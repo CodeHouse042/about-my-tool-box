@@ -25,5 +25,7 @@ jobs:
         uses: actions/setup-python@v7
         with:
           python-version: "3.x"
+      - name: Testar regressões do verificador
+        run: python -m unittest discover -s scripts -p 'test_*.py' -v
       - name: Verificar estrutura, catálogo, privacidade e histórico
         run: python scripts/verify_repository.py --history
