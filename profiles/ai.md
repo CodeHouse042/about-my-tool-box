@@ -17,7 +17,7 @@ comparável antes da decisão.
 | Necessidade comprovada | Candidata |
 |---|---|
 | Estado e branching duráveis | LangGraph |
-| Papéis e tarefas colaborativas | CrewAI ou AutoGen |
+| Papéis e tarefas colaborativas | CrewAI |
 | Ferramentas interoperáveis | MCP/FastMCP |
 | Desenvolvimento por agente self-hosted | OpenHands |
 | Memória entre sessões | solução de memória após política de retenção |
