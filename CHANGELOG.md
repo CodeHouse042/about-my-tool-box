@@ -19,3 +19,7 @@
   open source também para entradas source-available.
 - Acrescenta Gitea e Nominatim como alternativas rastreáveis para hospedagem Git e
   busca/geocodificação proprietária.
+- Corrige a interrupção do verificador quando faltam catálogos obrigatórios ou o
+  guia de verificação; mantém os diagnósticos e as verificações restantes.
+- Adiciona testes de regressão da CLI em cópias temporárias e os inclui na matriz
+  existente de Ubuntu, Windows e macOS.

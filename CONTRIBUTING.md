@@ -31,6 +31,19 @@ Uma consulta à documentação sustenta E1. Para E3, inclua ambiente, comandos, 
 essencial e falhas exercitadas. Se a execução depender de conta ou orçamento
 indisponível, marque como bloqueada.
 
+## Testes do verificador
+
+Ao alterar os scripts de validação, execute também:
+
+```bash
+python -m unittest discover -s scripts -p 'test_*.py' -v
+```
+
+Os testes executam a CLI em cópias temporárias do repositório. Eles cobrem arquivos
+obrigatórios ausentes, diagnósticos simultâneos e continuidade das verificações de
+catálogo e privacidade. O checkout original é preservado. A matriz de CI executa
+a mesma suíte em Ubuntu, Windows e macOS.
+
 ## Pull request
 
 Responda: o que mudou, por que é necessário, como foi verificado, qual afirmação a
